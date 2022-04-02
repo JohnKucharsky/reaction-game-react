@@ -1,0 +1,35 @@
+@use "../sass/" as *;
+
+.home {
+  background-color: $white;
+  width: 80%;
+  margin: 3rem auto;
+  text-align: center;
+
+  &__header {
+    color: $gray;
+    margin-bottom: 2rem;
+  }
+
+  &__button {
+    padding: 0.5rem 1.5rem;
+    font-size: 1.3rem;
+    border: 2px solid $gray;
+    box-shadow: $shadow;
+    border-radius: 0.4rem;
+    font-weight: 700;
+    background-color: $white;
+
+    &:hover {
+      color: black;
+      border-color: black;
+      border-width: 3px;
+      transition: $transition;
+    }
+  }
+
+  &__results {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+  }
+}
